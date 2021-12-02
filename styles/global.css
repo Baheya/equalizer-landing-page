@@ -1,0 +1,67 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+  --blue: #66E2DC;
+  --orange: #FA7453;
+  --yellow: #FFB964;
+  --white: #FCFAF9;
+  --dark: #191826;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.heading-large {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 88px;
+    letter-spacing: -1px;
+    line-height: 88px;
+    color: var(--dark);
+}
+
+.heading-small {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 52px;
+    color: var(--dark);
+}
+
+.paragraph--large {
+font-family: 'IBM Plex Sans', sans-serif;
+font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 34px;
+    color: var(--dark);
+}
+
+.paragraph--small {
+font-family: 'IBM Plex Sans', sans-serif;
+font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 26px;
+    color: var(--dark);
+}
