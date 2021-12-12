@@ -43,3 +43,7 @@ button.button {
     fill: currentColor;
     margin-inline-end: 0.5em;
 }
+
+.block {
+    width: 100%;
+}

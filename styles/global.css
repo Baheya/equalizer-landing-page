@@ -36,7 +36,7 @@ img {
     font-size: 88px;
     letter-spacing: -1px;
     line-height: 88px;
-    color: var(--dark);
+    color: inherit;
 }
 
 .heading-small {
@@ -45,7 +45,7 @@ img {
     font-size: 40px;
     letter-spacing: 0;
     line-height: 52px;
-    color: var(--dark);
+    color: inherit;
 }
 
 .paragraph--large {
@@ -54,7 +54,7 @@ font-weight: 400;
     font-size: 20px;
     letter-spacing: 0;
     line-height: 34px;
-    color: var(--dark);
+    color: inherit;
 }
 
 .paragraph--small {
@@ -63,5 +63,9 @@ font-weight: 400;
     font-size: 16px;
     letter-spacing: 0;
     line-height: 26px;
-    color: var(--dark);
+    color: inherit;
+}
+
+.spacer-y-2 {
+  margin-block-start: 20px;
 }

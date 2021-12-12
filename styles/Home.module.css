@@ -1,0 +1,4 @@
+.mainWrapper {
+    display: grid;
+    grid-template-columns: minmax(1rem, 1fr) minmax(auto, 1100px) minmax(1rem, 1fr);
+}
