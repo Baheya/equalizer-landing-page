@@ -1,5 +1,5 @@
-import { Logo } from '../Logo/Logo';
-import { SocialMedia } from '../SocialMedia/SocialMedia';
+import Logo from '../Logo/Logo';
+import SocialMedia from '../SocialMedia/SocialMedia';
 
 import styles from './Footer.module.css';
 

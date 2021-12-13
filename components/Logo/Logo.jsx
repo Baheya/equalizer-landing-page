@@ -2,6 +2,6 @@ import Image from 'next/image';
 
 import logo from '../../public/logo.svg';
 
-export function Logo() {
+export default function Logo() {
   return <Image src={logo} />;
 }

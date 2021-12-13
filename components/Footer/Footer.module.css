@@ -1,7 +1,3 @@
-.bold {
-  font-weight: bold;
-}
-
 .footer {
   display: grid;
   grid-template-columns: minmax(2rem, 1fr) minmax(auto, 1100px) minmax(
@@ -15,6 +11,10 @@
 
 .footer > * {
   grid-column: 2 / -2;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 @media screen and (min-width: 540px) {

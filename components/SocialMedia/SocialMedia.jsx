@@ -1,6 +1,6 @@
 import styles from './SocialMedia.module.css';
 
-export function SocialMedia() {
+export default function SocialMedia() {
   return (
     <div className={styles.container}>
       <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg">

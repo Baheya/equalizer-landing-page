@@ -1,6 +1,6 @@
 import styles from './Button.module.css';
 
-export function Button({ type, variant, onClick = () => {}, block }) {
+export default function Button({ type, variant, onClick = () => {}, block }) {
   return (
     <button
       role="button"
