@@ -1,0 +1,5 @@
+.pageHeader {
+    padding: 2rem var(--default-margin);
+    grid-column: 2 / -2;
+    background: transparent;
+}

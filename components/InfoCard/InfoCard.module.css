@@ -1,18 +1,21 @@
 .cardWrapper {
     width: 100%;
-    max-width: 400px;
+    min-width: 200px;
     background-color: var(--orange);
     color: var(--white);
     font-family: "IBM Plex Sans";
     grid-column: 2 / -2;
-    padding: 1.5rem clamp(1rem, 5%, 3rem);
+    padding: 2.5rem clamp(2rem, 15%, 3rem);
     border-radius: 10px;
+    grid-column: 1 / -1;
+    grid-row: 3 / 5;
+    z-index: 2;
 }
 
 .subscriptionContainer {
     display: inline-flex;
     align-items: center;
-    margin-bottom: 2em;
+    margin: 2em 0;
     font-size: 14px;
 
 }
@@ -23,3 +26,11 @@
     margin-inline-end: 5px;
     line-height: 1;
 }
+
+         @media screen and (min-width: 540px) {
+     .cardWrapper {
+         grid-row: 3 / 5;
+         grid-column: 3 / 5;
+             max-width: 400px;
+     }
+    }

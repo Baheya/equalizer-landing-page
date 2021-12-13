@@ -11,6 +11,15 @@ body {
   --yellow: #FFB964;
   --white: #FCFAF9;
   --dark: #191826;
+  --default-margin: clamp(0.5rem, 5%, 3rem);
+}
+
+body {
+      background-image: url('../public/images/bg-main-desktop.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position-x: center;
 }
 
 * {
@@ -33,31 +42,32 @@ img {
 
 .heading-large {
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 88px;
-    letter-spacing: -1px;
-    line-height: 88px;
+    font-size: 38px;
+    letter-spacing: -0.45px;
+    line-height: 46px;
     color: inherit;
+    margin: 0;
+
 }
 
 .heading-small {
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 700;
-    font-size: 40px;
-    letter-spacing: 0;
-    line-height: 52px;
+    font-size: 32px;
+    line-height: 40px;
     color: inherit;
 }
 
-.paragraph--large {
+.paragraph-large {
 font-family: 'IBM Plex Sans', sans-serif;
 font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     letter-spacing: 0;
-    line-height: 34px;
+    line-height: 26px;
     color: inherit;
 }
 
-.paragraph--small {
+.paragraph-small {
 font-family: 'IBM Plex Sans', sans-serif;
 font-weight: 400;
     font-size: 16px;
@@ -69,3 +79,34 @@ font-weight: 400;
 .spacer-y-2 {
   margin-block-start: 20px;
 }
+
+    @media screen and (min-width: 540px) {
+      .heading-large {
+      font-size: 64px;
+      letter-spacing: -1px;
+      line-height: 88px;
+      }
+
+      .paragraph-large {
+        font-size: 18px;
+        line-height: 28px;
+      }
+    }
+
+        @media screen and (min-width: 1024px) {
+      .heading-large {
+      font-size: 88px;
+      line-height: 88px;
+      letter-spacing: -0.73;
+      }
+
+      .heading-small {
+      font-size: 40px;
+      line-height: 52px;
+      }
+
+      .paragraph-large {
+        font-size: 20px;
+        line-height: 34px;
+      }
+    }
