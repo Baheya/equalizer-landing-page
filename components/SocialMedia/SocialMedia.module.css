@@ -1,0 +1,13 @@
+.container {
+  display: inline-flex;
+  width: 8rem;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 540px) {
+  .container.container {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    margin-left: auto;
+  }
+}

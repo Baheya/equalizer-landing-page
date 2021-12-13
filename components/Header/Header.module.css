@@ -1,5 +1,26 @@
 .pageHeader {
-    padding: 2rem var(--default-margin);
-    grid-column: 2 / -2;
-    background: transparent;
+  display: grid;
+  grid-template-columns: minmax(2rem, 1fr) minmax(auto, 1100px) minmax(
+      2rem,
+      1fr
+    );
+  background: transparent;
+  place-items: start;
+  padding: 2rem 0;
+}
+
+.pageHeader > * {
+  grid-column: 2 / -2;
+}
+
+@media screen and (min-width: 540px) {
+  .pageHeader {
+    padding: 4rem 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .pageHeader {
+    padding: 5rem 0;
+  }
 }

@@ -1,49 +1,49 @@
 button.button {
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: bold;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0.25em 0.75em;
-    min-width: 10ch;
-    min-height: 44px; 
-    text-align: center;
-    line-height: 1.1;
-    transition: 220ms all ease-in-out;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25em 0.75em;
+  min-width: 10ch;
+  min-height: 44px;
+  text-align: center;
+  line-height: 1.1;
+  transition: 220ms all ease-in-out;
 }
 
-  @media screen and (-ms-high-contrast: active) {
-    border: 2px solid currentcolor;
-  }
+@media screen and (-ms-high-contrast: active) {
+  border: 2px solid currentcolor;
+}
 
 .dark {
-    background-color: var(--dark);
-    color: var(--white);
+  background-color: var(--dark);
+  color: var(--white);
 }
 
 .dark:hover {
-    background-color: var(--blue);
+  background-color: var(--blue);
 }
 
 .light {
-    background-color: var(--white);
-    color: var(--dark);
+  background-color: var(--white);
+  color: var(--dark);
 }
 
 .light:hover {
-    background-color: var(--orange);
+  background-color: var(--yellow);
 }
 
 .icon {
-    width: 1em;
-    height: 1em;
-    fill: currentColor;
-    margin-inline-end: 0.5em;
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+  margin-inline-end: 0.5em;
 }
 
 .block {
-    width: 100%;
+  width: 100%;
 }

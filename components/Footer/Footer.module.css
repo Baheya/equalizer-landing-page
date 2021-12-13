@@ -1,0 +1,32 @@
+.bold {
+  font-weight: bold;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: minmax(2rem, 1fr) minmax(auto, 1100px) minmax(
+      2rem,
+      1fr
+    );
+  background: transparent;
+  place-items: start;
+  padding: 2rem 0;
+}
+
+.footer > * {
+  grid-column: 2 / -2;
+}
+
+@media screen and (min-width: 540px) {
+  .footer {
+    grid-template-columns:
+      minmax(2rem, 1fr) minmax(auto, 550px) minmax(auto, 550px)
+      minmax(2rem, 1fr);
+    align-items: center;
+    padding-bottom: 4rem;
+  }
+
+  .content {
+    grid-column: 2 / 3;
+  }
+}
